@@ -27,8 +27,6 @@ alias vz='vim ~/.zshrc'
 alias open_zshrc='open ~/.zshrc'
 alias be="bundle exec"
 
-
-
 # git設定
 # https://qiita.com/umasoya/items/f3bd6cffd418f3830b75
 
@@ -40,7 +38,7 @@ zstyle ':vcs_info:git:*' stagedstr "%F{yellow}!"
 zstyle ':vcs_info:git:*' unstagedstr "%F{blue}+"
 zstyle ':vcs_info:*' formats "%F{green}%c%u[%b]%f"
 zstyle ':vcs_info:*' actionformats '[%b|%a]'
-PROMPT='%n@%m %c'\$vcs_info_msg_0_' %# '
+PROMPT='%n@%m %c'\$vcs_info_msg_0_' $ '
 precmd(){ vcs_info }
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
@@ -57,7 +55,6 @@ setopt correct
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
-
 
 export PATH="/usr/local/opt/qt@5/bin:$PATH"
 export PATH="/opt/local/libexec/qt5/bin:$PATH"
