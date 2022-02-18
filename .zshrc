@@ -12,10 +12,10 @@ ulimit -Sn 10240
 echo # ------------------------------------------------------------------------ >> ~/.zshrc
 echo # zsh-completions >> ~/.zshrc
 echo # ------------------------------------------------------------------------>> foo.txt
-echo 'if [ -d ${HOME}/.zsh/zsh-completions/src ] ; then' >> ~/.zshrc
-echo '   fpath=(${HOME}/.zsh/zsh-completions/src $fpath)' >> ~/.zshrc
-echo '   compinit' >> ~/.zshrc
-echo fi >> ~/.zshrc
+# echo 'if [ -d ${HOME}/.zsh/zsh-completions/src ] ; then' >> ~/.zshrc
+# echo '   fpath=(${HOME}/.zsh/zsh-completions/src $fpath)' >> ~/.zshrc
+# echo '   compinit' >> ~/.zshrc
+# echo fi >> ~/.zshrc
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -75,27 +75,4 @@ if [ -d ${HOME}/.zsh/zsh-completions/src ] ; then
    fpath=(${HOME}/.zsh/zsh-completions/src $fpath)
    compinit
 fi
-if [ -d ${HOME}/.zsh/zsh-completions/src ] ; then
-   fpath=(${HOME}/.zsh/zsh-completions/src $fpath)
-   compinit
-fi
-if [ -d ${HOME}/.zsh/zsh-completions/src ] ; then
-   fpath=(${HOME}/.zsh/zsh-completions/src $fpath)
-   compinit
-fi
-if [ -d ${HOME}/.zsh/zsh-completions/src ] ; then
-   fpath=(${HOME}/.zsh/zsh-completions/src $fpath)
-   compinit
-fi
-if [ -d ${HOME}/.zsh/zsh-completions/src ] ; then
-   fpath=(${HOME}/.zsh/zsh-completions/src $fpath)
-   compinit
-fi
-if [ -d ${HOME}/.zsh/zsh-completions/src ] ; then
-   fpath=(${HOME}/.zsh/zsh-completions/src $fpath)
-   compinit
-fi
-if [ -d ${HOME}/.zsh/zsh-completions/src ] ; then
-   fpath=(${HOME}/.zsh/zsh-completions/src $fpath)
-   compinit
-fi
+
