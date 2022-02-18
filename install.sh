@@ -36,3 +36,6 @@ DOTFILES SETUP FINISHED! bye.
 **************************************************
 
 END
+
+# chmod +x install.sh
+#  1007  ./install.sh
