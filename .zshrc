@@ -26,6 +26,7 @@ alias relogin='exec $SHELL -l'
 alias vz='vim ~/.zshrc'
 alias open_zshrc='open ~/.zshrc'
 alias be="bundle exec"
+alias dr="docker-compose exec web bundle exec"
 
 # git設定
 # https://qiita.com/umasoya/items/f3bd6cffd418f3830b75
